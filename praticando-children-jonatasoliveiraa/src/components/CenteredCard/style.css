@@ -1,0 +1,31 @@
+body{
+    background-color: #282c34;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container span{
+    display: flex;
+    gap: 20px;
+   
+}
+.container span h1{
+    background-color: #9000ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+    cursor: pointer;
+}
+.container span h1:hover{
+    background-color: #fff;
+    color: #9000ff ;
+    border: 2px solid #9000ff;
+
+}
